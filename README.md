@@ -14,6 +14,8 @@ Overview
 - Questions they hope to answer with the data
 	- With this data, we hope to answer the likelihood of a stroke based on a patient's personal health. 
 
+- Description of the communication protocols 
+	- Our communication occurs over zoom and in slack to send updates to each other. The success of our project depends on our ability to collaborate as a team.
 _____
 Results
 
