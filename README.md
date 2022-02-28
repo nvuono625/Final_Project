@@ -1,5 +1,5 @@
 # Final_Project
-Overview
+## Overview
 - Selected topic
 	- [Stroke Prediction Dataset](https://github.com/nvuono625/Final_Project/blob/NVuono_Square/Resources/healthcare-dataset-stroke-data-update.csv)
 
@@ -17,7 +17,7 @@ Overview
 - Description of the communication protocols 
 	- Our communication occurs over zoom and in slack to send updates to each other. The success of our project depends on our ability to collaborate as a team.
 _____
-Results
+## Results
 
 _____
-Summmary
+## Summmary
