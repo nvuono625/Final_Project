@@ -1,7 +1,7 @@
 # Final_Project
 Overview
 - Selected topic
-	- Stroke Prediction Dataset
+	- [Stroke Prediction Dataset](https://github.com/nvuono625/Final_Project/blob/NVuono_Square/Resources/healthcare-dataset-stroke-data-update.csv)
 
 - Reason they selected the topic
 	- The reason we selected this topic is because it is something that our team was interested in. According to the World Health Organization, 11% of total deaths globally are caused by strokes and it would be a benefit to the public to be able to predict the likihood based on personal traits, ie. gender, age, various diseases, smoking status, etc.
