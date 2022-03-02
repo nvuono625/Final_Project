@@ -10,7 +10,12 @@ Create table Patients (
 	PRIMARY KEY (id)
  	);
 	
-Create Table results (
+	
+
+
+
+
+Create Table Health (
 	id integer,
 	avg_glucose_level float,
  	bmi float,
@@ -19,9 +24,8 @@ Create Table results (
 );
 
 
-
-Select* 
+	Select* 
 From patients
 
 SELECT*
-FROM results
+FROM health
