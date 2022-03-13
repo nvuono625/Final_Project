@@ -1,3 +1,4 @@
+
 Create table Patients (
  	id integer NOT NULL,
  	gender text NOT NULL,
@@ -24,8 +25,3 @@ Create Table Health (
 );
 
 
-	Select* 
-From patients
-
-SELECT*
-FROM health
