@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Healthcare and Stroke Relationship</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="wrapper">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="btn btn-primary" href="index.html">Go Back to Home Page</a>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <p style="color:black; width: 50%; font-size: 15px; float: right; font-weight: bold;">
+          Have you ever wondered what the relationship between different health, and lifestyle factors
+          are and how they can possibly contribute to your future wellness? Every year, about 800,000
+          people in the United States have a stroke - and about 1 out of 4 of those strokes are
+          recurrent strokes. Anyone, including children, can have a stroke at any time, so it is
+          important to take care of your health as a way to lower that risk. There are several factors
+          that can increase your risk of stoke. Some of these factors are beyond your control such as
+          your age, sex, and ethnicity. But there are many unhealthy habits, such as smoking,
+          drinking, and not getting enough exercise, that you can increase your risk as well. The
+          chart below takes healthcare data from various subjects throughout the country and charts if
+          they have ever had a stroke or not. You can use the interactive form to filter on different
+          categories to get more insight.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="well">
+          <h5>Choose a category to analyze:</h5>
+          <form onchange="chartChange()">
+            <input type="radio" id="smoking_status" name="category" value="smoking_status" checked>
+            <label for="smoking_status">Smoking Status</label><br>
+            <input type="radio" id="hypertension" name="category" value="hypertension">
+            <label for="hypertension">Hypertension</label><br>
+            <input type="radio" id="heart_disease" name="category" value="heart_disease">
+            <label for="heart_disease">Heart Disease</label>
+          </form>
+        </div>
+        <div class="well" style="text-align:center; width: 100%">
+          <form style="font-family: inherit; font-size: 1rem;" id="form">
+            <h4 style="color:black; font-size: 30px;">Filter Search</h4>
+            <label for="gender" style="color:black">Gender</label>
+            <br><select name="gender" id="gender">
+              <option value="all">All</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+            </select>
+            <br />
+            <label for="age" style="color:black">Age</label>
+            <br><select name="age" id="age">
+              <option value="all">All</option>
+              <option value="0-19">0-19</option>
+              <option value="20-29">20-29</option>
+              <option value="30-39">30-39</option>
+              <option value="40-49">40-49</option>
+              <option value="50-59">50-59</option>
+              <option value="60-69">60-69</option>
+              <option value="70-79">70-79</option>
+              <option value="80-90">80-90</option>
+            </select>
+            <br />
+            <label for="relationshipStatus" style="color:black">Ever Married</label>
+            <br><select name="relationshipStatus" id="relationshipStatus">
+              <option value="all">All</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+            <br />
+            <label for="workType" style="color:black">Work Type</label>
+            <br><select name="workType" id="workType">
+              <option value="all">All</option>
+              <option value="Self-employed">Self Employed</option>
+              <option value="Private">Private</option>
+              <option value="Govt_job">Government Job</option>
+              <option value="children">Children</option>
+            </select>
+            <br />
+            <label for="residenceType" style="color:black">Residence Type</label>
+            <br><select name="residenceType" id="residenceType">
+              <option value="all">All</option>
+              <option value="Urban">Urban</option>
+              <option value="Rural">Rural</option>
+            </select>
+            <br />
+            <br />
+            <button id="filter-btn" type="button" class="btn-dark" style="color:black; background-color: white;"
+              onclick="getFilters()">
+              Filter Table
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-4">
+        <div id="pie"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+  <script src="static/js/dashboard.js"></script>
+</body>
+
+</html>

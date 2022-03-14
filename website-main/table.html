@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare and Stroke relationship</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                <a class="btn btn-primary" href="index.html">Go Back to Home Page</a>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center">
+                <p style="color:black; width: 50%; font-size: 15px; float: right; font-weight: bold;">
+                    Have you ever wondered what the relationship between different health, and lifestyle factors
+                    are and how they can possibly contribute to your future wellness? Every year, about 800,000
+                    people in the United States have a stroke - and about 1 out of 4 of those strokes are
+                    recurrent strokes. Anyone, including children, can have a stroke at any time, so it is
+                    important to take care of your health as a way to lower that risk. There are several factors
+                    that can increase your risk of stoke. Some of these factors are beyond your control such as
+                    your age, sex, and ethnicity. But there are many unhealthy habits, such as smoking,
+                    drinking, and not getting enough exercise, that you can increase your risk as well. The
+                    chart below takes healthcare data from various subjects throughout the country and charts if
+                    they have ever had a stroke or not. You can use the interactive form to filter on different
+                    categories to get more insight.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="well">
+                    <form id="form">
+                        <h4>Filter Search</h4>
+                        <label for="gender">Gender</label>
+                        <br><select name="gender" id="gender">
+                            <option value="all">All</option>
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                        </select>
+                        <br />
+
+                        <label for="age">Age</label>
+                        <br><select name="age" id="age">
+                            <option value="all">All</option>
+                            <option value="0-19">0-19</option>
+                            <option value="20-29">20-29</option>
+                            <option value="30-39">30-39</option>
+                            <option value="40-49">40-49</option>
+                            <option value="50-59">50-59</option>
+                            <option value="60-69">60-69</option>
+                            <option value="70-79">70-79</option>
+                            <option value="80-90">80-90</option>
+
+                        </select>
+                        <br />
+
+                        <label for="relationshipStatus">Ever Married</label>
+                        <br><select name="relationshipStatus" id="relationshipStatus">
+                            <option value="all">All</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+
+                        </select>
+                        <br />
+
+                        <label for="workType">Work Type</label>
+                        <br><select name="workType" id="workType">
+                            <option value="all">All</option>
+                            <option value="Self-employed">Self Employed</option>
+                            <option value="Private">Private</option>
+                            <option value="Govt_job">Government Job</option>
+                            <option value="children">Children</option>
+
+                        </select>
+                        <br />
+
+                        <label for="residenceType">Residence Type</label>
+                        <br><select name="residenceType" id="residenceType">
+                            <option value="all">All</option>
+                            <option value="Urban">Urban</option>
+                            <option value="Rural">Rural</option>
+                        </select>
+                        <br />
+
+                        <label for="smokingStatus">Smoking Status</label>
+                        <br><select name="smokingStatus" id="smokingStatus">
+                            <option value="all">All</option>
+                            <option value="smokes">Smokes</option>
+                            <option value="formerly_smoked">Formerly Smoked</option>
+                            <option value="never_smoked">Never Smoked</option>
+                        </select>
+                        <br />
+
+                        <label for="stoke">Had Stroke</label>
+                        <br><select name="stroke" id="stroke">
+                            <option value="all">All</option>
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                        <br />
+
+                        <label for="heartDisease">Have Heart Disease</label>
+                        <br><select name="heartDisease" id="heartDisease">
+                            <option value="all">All</option>
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                        <br />
+
+
+                        <label for="hypertension">Have Hypertension</label>
+                        <br><select name="hypertension" id="hypertension">
+                            <option value="all">All</option>
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                        <br />
+
+                        <br />
+                        <button id="filter-btn" type="button" class="btn-dark" onclick="getFilters()">
+                            Filter Table
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="well">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Gender</th>
+                                <th>Age</th>
+                                <th>Has Hypertension</th>
+                                <th>Has Heart Disease</th>
+                                <th>Ever Married</th>
+                                <th>Work Type</th>
+                                <th>Residence Type</th>
+                                <th>Avg. Glucose Level</th>
+                                <th>BMI</th>
+                                <th>Smoking Status</th>
+                                <th>Has Had Stroke</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/table.js"></script>
+</body>
+
+</html>

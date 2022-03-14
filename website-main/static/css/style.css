@@ -1,0 +1,18 @@
+.jumbotron {
+  background-image: url("../images/health.jpeg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+  #form{
+    border: solid black;
+    text-align: center;
+  }
+
+  select{
+    width: 100px;
+  }
+
+  label{
+    padding-top: 5px;
+  }
