@@ -20,5 +20,15 @@
 _____
 ## Results
 
+By using different program learning tools, we were able to analyze the data to determine different risk results. Tools that were used were: SQL, supervised machine learning, Pandas, MatPlotLib, Seaborn, SKLearn, HTML, & Tableau public. 
+
+People throughout their lives are always looking for ways to prevent strokes or hearth attacks later in life. Living a stressfree lifestyle is going to put the least amount of stress on the heart and arteries. Due to differnet living situations in every person, this is not always an option. This analysis of different factors that can cause a stroke was a way for us to determin if there were other factors that can help a person prevent this risks in life. 
+
+There are stroke risk factors in every catagory that we analized. While some resulted in higher stroke rates, the biggest factor affecting a persons risk of Stroke was being married. Specificly increase for females. 
+
+Another catagory that is preventable or at least controllable, was the patient's BMI. People in the yellow and orange section of the chart below were the leading stroke patients. Surprisingly, heart desease and hypertension did not have a change in a person having a stroke or not. More people without heart disease had stroke then with. 
+
+[bmi-chart](https://user-images.githubusercontent.com/91567484/159176329-e6d9863a-49b1-4b1b-9c91-8b824cccee16.png)
 _____
-## Summmary
+## Summmary!
+Nothing is ever 100%. Every person every day is at risk of having a stroke. No one can know exactly what is going on inside the body at any time. As we see throughout life, strokes can effect any age, gender or health fanatic. 
