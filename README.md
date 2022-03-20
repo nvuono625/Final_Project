@@ -30,5 +30,5 @@ Another catagory that is preventable or at least controllable, was the patient's
 
 [bmi-chart](https://user-images.githubusercontent.com/91567484/159176329-e6d9863a-49b1-4b1b-9c91-8b824cccee16.png)
 _____
-## Summmary!
+## Summary!
 Nothing is ever 100%. Every person every day is at risk of having a stroke. No one can know exactly what is going on inside the body at any time. As we see throughout life, strokes can effect any age, gender or health fanatic. 
