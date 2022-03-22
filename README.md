@@ -20,7 +20,7 @@
 _____
 ## Results
 
-By using different program learning tools, we were able to analyze the data to determine different risk results. Tools that were used were: SQL, supervised machine learning, Pandas, MatPlotLib, Seaborn, SKLearn, HTML, & Tableau public. 
+By using different program learning tools, we were able to analyze the data to determine different risk results. Tools that were used were: SQL, supervised machine learning, Pandas, MatPlotLib, Seaborn, SKLearn, HTML, JavaScript, CSS, & Tableau public. 
 
 People throughout their lives are always looking for ways to prevent strokes or hearth attacks later in life. Living a stressfree lifestyle is going to put the least amount of stress on the heart and arteries. Due to differnet living situations in every person, this is not always an option. This analysis of different factors that can cause a stroke was a way for us to determin if there were other factors that can help a person prevent this risks in life. 
 
