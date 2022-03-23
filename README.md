@@ -48,8 +48,10 @@ By using different program learning tools, we were able to analyze the data to d
 People throughout their lives are always looking for ways to prevent strokes or hearth attacks later in life. Living a stressfree lifestyle is going to put the least amount of stress on the heart and arteries. Due to differnet living situations in every person, this is not always an option. This analysis of different factors that can cause a stroke was a way for us to determin if there were other factors that can help a person prevent this risks in life. 
 
 There are stroke risk factors in every catagory that we analized. While some resulted in higher stroke rates, the biggest factor affecting a persons risk of Stroke was being married. Specificly increase for females. 
+<img width="700" alt="DB 2 " src="https://user-images.githubusercontent.com/91567484/159600093-8be9f633-bf6e-42ea-ad78-e41bf2026b0d.png">
 
 Another catagory that is preventable or at least controllable, was the patient's BMI. People in the yellow and orange section of the chart below were the leading stroke patients. Surprisingly, heart desease and hypertension did not have a change in a person having a stroke or not. More people without heart disease had stroke then with. 
+<img width="634" alt="DB 1 " src="https://user-images.githubusercontent.com/91567484/159600113-912c4aed-0659-4fff-9400-29c13d9b0e8b.png">
 
 -![BMI Chart ](https://user-images.githubusercontent.com/91567484/159599865-efde805c-7d08-4abe-904f-8b399c12013f.png)
 
