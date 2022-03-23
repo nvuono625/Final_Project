@@ -51,7 +51,8 @@ There are stroke risk factors in every catagory that we analized. While some res
 
 Another catagory that is preventable or at least controllable, was the patient's BMI. People in the yellow and orange section of the chart below were the leading stroke patients. Surprisingly, heart desease and hypertension did not have a change in a person having a stroke or not. More people without heart disease had stroke then with. 
 
-[bmi-chart](https://user-images.githubusercontent.com/91567484/159176329-e6d9863a-49b1-4b1b-9c91-8b824cccee16.png)
+-![BMI Chart ](https://user-images.githubusercontent.com/91567484/159599865-efde805c-7d08-4abe-904f-8b399c12013f.png)
+
 _____
 ## Summary!
 Nothing is ever 100%. Every person every day is at risk of having a stroke. No one can know exactly what is going on inside the body at any time. As we see throughout life, strokes can effect any age, gender or health fanatic. 
