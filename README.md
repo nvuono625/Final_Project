@@ -31,7 +31,8 @@ _____
 - Random Forest- Random forest is a Supervised Machine Learning Algorithm that is used widely in Classification and Regression problems. It builds decision trees on different samples and takes their majority vote for classification and average in case of regression.
 - <img width="199" alt="Accuracy of Random Forest" src="https://user-images.githubusercontent.com/91567484/159597345-25168e40-4aa1-459c-a42f-bf81b14bf561.png">
 
-- Accuracy Results through Machine Learning- <img width="364" alt="Accuracy Bar Graph" src="https://user-images.githubusercontent.com/91567484/159597363-20cf0c96-74cc-4526-9de3-f5433f9c6f23.png">
+- Accuracy Results through Machine Learning- 
+- <img width="364" alt="Accuracy Bar Graph" src="https://user-images.githubusercontent.com/91567484/159597363-20cf0c96-74cc-4526-9de3-f5433f9c6f23.png">
 
 _____
 ## Results
