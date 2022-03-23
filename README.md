@@ -34,6 +34,12 @@ _____
 - Accuracy Results through Machine Learning- 
 - <img width="364" alt="Accuracy Bar Graph" src="https://user-images.githubusercontent.com/91567484/159597363-20cf0c96-74cc-4526-9de3-f5433f9c6f23.png">
 
+-Decision Tree feature importance- 
+- ![Decision_Tree_feature_importances](https://user-images.githubusercontent.com/91567484/159597740-2fdc12b6-c248-4f5e-bb40-a0f4f3f720a2.png)
+
+-Random Forest feature importance- 
+- ![RF_feature_importances](https://user-images.githubusercontent.com/91567484/159597849-f4f2217b-bbed-4ae9-ac69-f2d69071e7f7.png)
+
 _____
 ## Results
 
