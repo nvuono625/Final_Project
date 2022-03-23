@@ -18,6 +18,22 @@
 - Description of the communication protocols 
 	- Our communication occurs over zoom and in slack to send updates to each other. The success of our project depends on our ability to collaborate as a team.
 _____
+## Machine Learning Results 
+- Decision Tree- Decision trees use multiple algorithms to decide to split a node into two or more sub-nodes. The creation of sub-nodes increases the homogeneity of resultant sub-nodes. In other words, we can say that the purity of the node increases with respect to the target variable. The decision tree splits the nodes on all available variables and then selects the split which results in most homogeneous sub-nodes.
+- https://github.com/nvuono625/Final_Project/blob/main/ML%20Images/Accurary%20of%20Decision%20Tree.png?raw=true![image](https://user-images.githubusercontent.com/91567484/159596335-b727e115-a124-4d22-9837-0b13e96d5ef9.png)
+
+- Logistic Regression- Logistic regression uses an equation as the representation, very much like linear regression. - Input values (x) are combined linearly using weights or coefficient values (referred to as the Greek capital letter Beta) to predict an output value (y). A key difference from linear regression is that the output value being modeled is a binary values (0 or 1) rather than a numeric value.
+- https://github.com/nvuono625/Final_Project/blob/main/ML%20Images/Accuracy%20of%20Logistic%20Regression.png?raw=true![image](https://user-images.githubusercontent.com/91567484/159597071-0821959a-db3d-444f-9c63-86c0161ff1d0.png)
+
+- KNN Classifier- The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other. The KNN algorithm hinges on this assumption being true enough for the algorithm to be useful. KNN captures the idea of similarity (sometimes called distance, proximity, or closeness) with some mathematics we might have learned in our childhood— calculating the distance between points on a graph.
+- https://github.com/nvuono625/Final_Project/blob/main/ML%20Images/Accuracy%20of%20KNN.png?raw=true![image](https://user-images.githubusercontent.com/91567484/159597049-a87c1a81-7cc1-4946-8e91-3bbf36c66e0a.png)
+
+- Random Forest- Random forest is a Supervised Machine Learning Algorithm that is used widely in Classification and Regression problems. It builds decision trees on different samples and takes their majority vote for classification and average in case of regression.
+- https://github.com/nvuono625/Final_Project/blob/main/ML%20Images/Accuracy%20of%20Random%20Forest.png?raw=true![image](https://user-images.githubusercontent.com/91567484/159597031-433bea99-4f5b-4eed-ae30-3feedbb74344.png)
+
+- Accuracy Results through Machine Learning- https://github.com/nvuono625/Final_Project/blob/main/ML%20Images/Accuracy%20Bar%20Graph.png?raw=true![image](https://user-images.githubusercontent.com/91567484/159597008-f82f5c41-4e75-4cfd-953d-2b545b970a82.png)
+
+_____
 ## Results
 
 By using different program learning tools, we were able to analyze the data to determine different risk results. Tools that were used were: SQL, supervised machine learning, Pandas, MatPlotLib, Seaborn, SKLearn, HTML, JavaScript, CSS, & Tableau public. 
