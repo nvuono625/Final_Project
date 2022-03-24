@@ -2,7 +2,8 @@
 ## Overview
 - Selected topic
 	- [Stroke Prediction Dataset](https://github.com/nvuono625/Final_Project/blob/NVuono_Square/Resources/healthcare-dataset-stroke-data-update.csv)
-	- Google Slides: https://docs.google.com/presentation/d/1Lf6xTJPvfWeE9aqnDYtFyqe7-ScPtTFNq3beuKu3Z6A/edit#slide=id.g11e19c5e411_0_15
+	- [Google Slides](https://docs.google.com/presentation/d/1Lf6xTJPvfWeE9aqnDYtFyqe7-ScPtTFNq3beuKu3Z6A/edit#slide=id.g11e19c5e411_0_15)
+	- [Interactive Element](https://nvuono625.github.io/Final_Project/website-main/)
 
 - Reason they selected the topic
 	- The reason we selected this topic is because it is something that our team was interested in. According to the World Health Organization, 11% of total deaths globally are caused by strokes and it would be a benefit to the public to be able to predict the likelihood based on personal traits, ie. gender, age, various diseases, smoking status, etc.
